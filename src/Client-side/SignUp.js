@@ -104,7 +104,6 @@ const SignUp = () => {
 
   return (
     <div className="signup-form">
-        <p>SignUp Page</p>
         {errorMessage && <p>{errorMessage}</p>}
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicUsername">
